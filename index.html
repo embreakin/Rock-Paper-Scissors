@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Rock Paper Scissors</h1>
+</header>
+
+<button class="btn btn--yellow btn--cubic" id = "resetbtn"
+        type="button">RESET</button>
+
+<div id="user-vs-comp">
+    <div id="user-label-block">
+      <div id = "user-label" class = "user-badge">you</div>
+    </div>
+    <div id="w-r-block">
+      <div id="w-r">winning rate
+        <br><span id="w-r-num">0</span>%</div>
+    </div>
+    <div id="computer-label-block">
+      <div id = "computer-label" class = "comp-badge">comp</div>
+    </div>
+
+    <div id="userchoice-block">
+      <div id="userchoice">
+      <!-- <img src="images/hand-rock-1.png" alt="rock"> -->
+      </div>
+    </div>
+    <div class="score-board">
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div id="compchoice-block">
+      <div id="compchoice">
+      <!-- <img src="images/hand-rock-1.png" alt="rock"> -->
+      </div>
+    </div>
+</div>
+
+<div class="result">
+<p></p>
+</div>
+
+<div class="choices">
+<div class="choice" id="r">
+<img src="images/hand-rock-1.png" alt="rock">
+</div>
+<div class="choice" id="p">
+<img src="images/hand-1.png" alt="paper">
+</div>
+<div class="choice" id="s">
+<img src="images/hand-scissors-1.png" alt="scissors">
+</div>
+</div>
+
+<p id="action-message">Make your move</p>
+
+<script src="app.js" charset="utf-8">
+
+</script>
+
+
+</body>
+</html>

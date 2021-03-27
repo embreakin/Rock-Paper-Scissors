@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b123b
+}
+
+header {
+  background: white;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+header > h1 {
+  color: #25272E;
+  text-align: center;
+  font-family: Asap, sans-serif;
+}
+
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin-left: 10%;
+  margin-bottom: 0px;
+}
+
+button.btn--yellow {
+  color: #000;
+  background-color: #fff100;
+  border-bottom: 5px solid #ccc100;
+}
+
+button.btn--yellow:active {
+  margin-top: 3px;
+  color: #000;
+  background: #fff20a;
+  border-bottom: 2px solid #ccc100;
+}
+
+#user-vs-comp{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#w-r-block{
+  position: relative;
+  /* margin: auto 60px; */
+  /* border: 3px solid white; */
+  text-align: center;
+}
+
+#w-r{
+  /* position: absolute;
+  bottom: 10px;
+  right: 90px; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+  /* border: 3px solid white; */
+  margin: 10px;
+  color: white;
+  font-size: 30px;
+  padding: 15px 10px;
+  font-family: Asap, sans-serif;
+  text-align: center;
+}
+
+.score-board {
+  border: 3px solid white;
+  border-radius: 14px;
+  text-align: center;
+  color: white;
+  font-size: 46px;
+  padding: 15px 20px;
+  margin: auto 60px;
+}
+
+
+#user-score {
+  margin: auto 20px;
+}
+
+#computer-score{
+  margin: auto 20px;
+}
+
+
+#userchoice-block{
+    position: relative;
+}
+#userchoice {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#compchoice-block{
+    position: relative;
+}
+#compchoice {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.user-badge{
+  background: #E2584D;
+  color: white;
+  font-size: 24px;
+  padding: 2px 10px;
+  font-family: Asap, sans-serif;
+}
+
+.comp-badge{
+  background: #4287f5;
+  color: white;
+  font-size: 24px;
+  padding: 2px 10px;
+  font-family: Asap, sans-serif;
+}
+
+#user-label-block{
+  position: relative;
+}
+
+#user-label{
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+
+}
+
+#computer-label-block{
+  position: relative;
+}
+
+#computer-label{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+
+}
+.result {
+  margin: 50px 0px;
+  color: white;
+  height: 40px;
+}
+
+.result > p {
+  text-align: center;
+  font-size: 40px;
+  text-weight: bold;
+  font-family: Asap, sans-serif;
+}
+
+.choices{
+text-align: center;
+}
+
+.choice{
+  border: 4px solid white;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 10px;
+  display: inline-block;
+  transition: all 0.3s ease
+}
+.choice:hover {
+  cursor: pointer;
+  background: #691009;
+}
+
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+  border: 4px solid #464647;
+  box-shadow: 0 0 10px #25292b;
+}
