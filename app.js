@@ -111,10 +111,6 @@ function game(userChoice){
   }
 }
 
-function show(userChoice){
-
-}
-
 function reset(){
   userScore = computerScore = 0;
   userScore_span.innerHTML = userScore;
